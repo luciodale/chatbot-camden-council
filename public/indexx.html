@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- <link href="https://cdn.botframework.com/botframework-webchat/latest/botchat.css" rel="stylesheet" /> -->
+	<link rel="stylesheet" type="text/css" href="/chatbot.css" />
+</head>
+<body>
+
+	<!-- DIRECT LINE! -->
+
+	<div id="bot"/>
+	<script src="https://cdn.botframework.com/botframework-webchat/latest/botchat.js"></script>
+	<script>
+		BotChat.App({
+			directLine: { secret: 'UKqQLHW7a1k.cwA.1vI.bMskM1YfxmYKKaNBr3HfPhSis9Icaalfi8wZ--55viE' },
+			user: { id: 'ucablda@ucl.ac.uk' },
+			bot: { id: 'camden-pcn' },
+			resize: 'detect'
+		}, document.getElementById("bot"));
+	</script>
+</body>
+</html>

@@ -1,0 +1,47 @@
+{
+  "name": "camden-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "engines": {
+    "node": ">=8.9.0",
+    "npm": ">=5.6.0"
+  },
+  "scripts": {
+    "test": "mocha || true"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.6.1",
+    "base64url": "^2.0.0",
+    "bluebird": "^3.5.0",
+    "bot-tester": "^3.4.5",
+    "botbuilder": "^3.15.0",
+    "botbuilder-azure": "^3.0.4",
+    "chai": "^4.1.2",
+    "connect-mongo": "^2.0.1",
+    "dotenv-extended": "^1.0.4",
+    "express": "^4.16.3",
+    "express-session": "^1.15.6",
+    "file-type": "^8.1.0",
+    "fs": "0.0.1-security",
+    "lodash": "^4.17.4",
+    "mkdirp": "^0.5.1",
+    "mocha": "^5.2.0",
+    "mongodb": "^3.1.0",
+    "mongoose": "^5.1.7",
+    "path": "^0.12.7",
+    "request-promise": "^4.2.2",
+    "restify": "^5.0.0",
+    "serve-static": "^1.13.2",
+    "stripe": "^4.15.1",
+    "url": "^0.11.0",
+    "uuid": "^3.0.1"
+  },
+  "devDependencies": {
+    "jsdoc": "^3.5.5",
+    "request": "^2.87.0",
+    "zip-folder": "^1.0.0"
+  }
+}
