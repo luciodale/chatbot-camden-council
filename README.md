@@ -20,4 +20,4 @@ Once the emulator is configured, go back to your terminal on the project root fo
 ### Important info
 The LUIS recognizer (Natural Language Feature) must be set up in the emulator to work. As it requires sensitive data such as the application id and the authoring key, this option will not be made available.
 
-However, the full chat capabilities can be tested at ```http://camden-pcn.azurewebsites.net/``` as long as the server will be kept alive.
+However, the full chat capabilities can be tested at ```https://camden-pcn.azurewebsites.net/``` as long as the server will be kept alive.
