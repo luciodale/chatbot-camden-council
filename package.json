@@ -26,6 +26,7 @@
     "express-session": "^1.15.6",
     "file-type": "^8.1.0",
     "fs": "0.0.1-security",
+    "hoek": "^5.0.4",
     "lodash": "^4.17.4",
     "mkdirp": "^0.5.1",
     "mocha": "^5.2.0",
