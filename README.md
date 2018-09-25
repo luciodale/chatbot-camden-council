@@ -6,7 +6,7 @@ First of all, download the repo to get the code on your local machine.
 
 ### NodeJS Download
 You need a stable version of NodeJS, which can be downloaded here: ```https://nodejs.org/```.
-After installing NodeJS, open your terminal and run the command ```node -v```. If it returns the version your using, your installation was completed successfully.
+After installing NodeJS, open your terminal and run the command ```node -v```. If it returns the version you are using, your installation was completed successfully.
 
 ### Dependencies Download
 At this point, go to the project root folder from your terminal and run ```npm install``` to import all the required dependencies.
